@@ -1,0 +1,154 @@
+/* ----- TABLE DES CONTENUS ----- */
+/*                                */
+/*                                */
+/*   1 - Global                   */
+/*   2 - NAVBAR                   */
+/*   3 - MAIN                     */
+/*     3.1 - ARTICLES             */
+/*     3.2 - FORMULAIRE           */
+/*   4 - FOOTER                   */
+/*                                */
+/* ------------------------------ */
+
+/* 1 - Global  */
+
+html {
+    margin: 0;
+}
+
+h1,
+h2,
+h3 {
+    text-transform: uppercase;
+}
+
+h1 {
+    color: #359E7B;
+    margin: 50px auto;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+h2,
+h3 {
+    color: #006083;
+}
+
+h3 {
+    margin-bottom: 20px;
+}
+
+h2 {
+    text-decoration: underline;
+}
+/*  2 - HEADER */
+
+nav {
+    background-color: #359E7B;
+}
+
+header nav ul {
+    max-width: 1150px;
+    padding: 15px;
+    margin: auto;
+    text-align: right;
+}
+
+header nav li {
+    display: inline-block;
+
+}
+
+header nav a {
+    padding: 15px;
+    color: #F6F6F6;
+    background-color: #359E7B;
+}
+
+header p,
+main {
+    max-width: 1150px;
+    margin: 0 auto;
+}
+/*  3 - MAIN */
+body {
+    background-color: #F6F6F6;
+    font-family: sans-serif;
+}
+/*  3.1 ARTICLE */
+article {
+    margin-bottom: 40px;
+}
+
+article p.dateTime {
+    color: grey;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+article a {
+    color: #359E7B;
+    margin-left: auto;
+    width: fit-content;
+}
+
+a.moreAndMore {
+    background-color: #359E7B;
+    max-width: 250px;
+    color: #FFFFFF;
+    padding: 15px;
+    margin: 40px auto 0 auto;
+    text-align: center;
+    border-radius: 5px;
+}
+
+article a, a.moreAndMore {
+    display: block;
+}
+/* 3.2 FORM */
+form {
+    max-width: 700px;
+    text-align: center;
+    margin: auto;
+}
+
+input,
+textarea {
+    font-size: 25px;
+    border: none;
+    border-bottom: solid 1.5px #359E7B;
+    padding: 15px;
+    margin: 15px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: none;
+    height: 300px;
+    border: solid 2px #359E7B;
+}
+
+.envoi {
+    background-color: #359E7B;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+/*  4 FOOTER  */
+footer {
+    background-color: darkgray;
+    padding: 15px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer a {
+    color: #FFFFFF;
+}
